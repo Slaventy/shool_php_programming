@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.a {
+    color: blue;
+    text-align: center;
+}
+
+#a{
+    color: green;
+    text-align:right;
+}
+
+#header{}
+#content{}
+#footer{
+    text-align: center;
+    font-size: 10px;
+    color: gray;
+}
+
+a:hover{
+    color: #070;
+}
+.class1 {
+    margin: 5px;
+    padding: 10px;
+    border-top: 1px solid green;
+    border-radius:10px;
+}
+
+.newclass{
+    text-decoration: underline;
+}
+.newclass2{
+    text-decoration: none;
+    padding: 20px;
+    margin: 20px;
+}
+.newclass2:hover{
+    text-decoration: overline;
+    cursor: pointer;
+}
+.newclass3 {
+    font-size: 23px;
+    color: aquamarine;
+}
+#maincontent{
+    width:940px;
+    margin: 0 auto;
+    background-color: burlywood;
+}
+.block1 p{
+    color: #900;
+}
+.block2{
+    color: #060;
+}
+.special-table{
+    width: 700px;
+    padding: 0;
+    border: none;
+    border-collapse: collapse;
+}
+
+.special-table th{
+    border: none;
+    padding: 0;
+}
+.special-table td{
+    padding: 10px;
+    border: none;
+}
